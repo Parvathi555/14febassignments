@@ -1,0 +1,15 @@
+n=int(input('Enter a number'))
+a=0
+while n>0:
+    rem=n%10
+    a=a+1 
+    n=n//10
+print('number of digits is',a)    
+
+
+output1:Enter a number123
+        number of digits is3
+        
+        
+output2:Enter a number2345
+        number of digits4
